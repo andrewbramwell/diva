@@ -1,0 +1,202 @@
+---
+title: 'Waxing and Beauty Treatments | Diva Thai Massage and Beauty'
+description: "Professional beauty treatments including facials, body scrubs, and waxing services for both men and women. Expert care with premium products in Cardiff."
+permalink: 'waxing-beauty/'
+eleventyNavigation:
+    key: Waxing & Beauty
+    order: 3200
+    parent: Treatments
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/spa-packages.css">
+    <link rel="preload" as="image" href="{% getUrl "/assets/images/banner.jpg" | resize({width: 2560, height: 1136}) | avif %}">
+{% endblock %}
+
+{% block body %}
+
+<!-- ====================================================================================== -->
+<!--                                       SBS Pricing                                      -->
+<!-- ====================================================================================== -->
+
+<!-- ============================================ -->
+<!--                Heading Block                 -->
+<!-- ============================================ -->
+
+<section id="content-1450">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Beauty Treatments</span>
+            <h2 class="cs-title">Professional Beauty & Skincare Treatments</h2>
+            <p class="cs-text">
+                Experience professional beauty treatments delivered with expertise and care at Diva Thai Massage & Beauty. Our services include facial therapies, revitalizing body scrubs, and full body warm waxing for men and women.
+            </p>
+        </div>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--                  30 min                      -->
+<!-- ============================================ -->
+
+<section id="pricing-995">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Beauty Treatments</h2>
+            <!--Menu-->
+            <ul class="cs-menu-group">
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Complete Cleanse & Lift Facial</span>
+                        <span class="cs-price">£35</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        This 45-minute multi-step facial includes deep cleansing and 20-minute lifting massage using The Body Shop's sensitive range. Features exfoliation, charcoal mask, and nourishing oils.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Full Body Scrub</span>
+                        <span class="cs-price">£60</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        A 60-minute gentle full-body exfoliation with warm towel prep and oil massage. Treatment combines scrub techniques with moisturising care for smooth, nourished skin.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Back Deep Clean</span>
+                        <span class="cs-price">£35</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute specialized treatment for acne and dead skin removal. Includes hot towel prep, gentle exfoliation, and oil-free massage, finished with moisturiser.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Inch Loss Body Wrap</span>
+                        <span class="cs-price">£55</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        60-minute slimming treatment combining hot gel wrap and cellulite massage. Choose two areas from abdomen, legs, or arms for targeted contouring.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <picture class="cs-picture">
+            <!--Mobile Image -->
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 576, height: 760}) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 576, height: 760}) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 576, height: 760}) | jpeg %}" type="image/jpeg">
+            <!--Tablet Image -->
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 928, height: 1017}) | avif %}" type="image/avif">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 928, height: 1017}) | webp %}" type="image/webp">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 928, height: 1017}) | jpeg %}" type="image/jpeg">
+            <!--Desktop Image -->
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 1042, height: 1168}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 1042, height: 1168}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 1042, height: 1168}) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl "/assets/images/treatment-1.jpg" | resize({width: 1042, height: 1017}) | jpeg %}" alt="massage" width="521" height="640" loading="lazy" decoding="async" aria-hidden="true">
+        </picture>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  60 min                      -->
+<!-- ============================================ -->
+
+<section id="pricing-r-995">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Pricing</span>
+            <h2 class="cs-title">Waxing Treatments</h2>
+            <!--Menu-->
+            <ul class="cs-menu-group">
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Lower Leg Wax</span>
+                        <span class="cs-price">£20</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute treatment using premium hot wax from ankle to knee for silky smooth results.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Full Leg Wax</span>
+                        <span class="cs-price">£40</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute comprehensive treatment from ankle to thigh using quality hot wax for long-lasting smoothness.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Classic Bikini Line</span>
+                        <span class="cs-price">£20</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute gentle waxing treatment for a neat bikini line that's perfect for swimwear.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Underarm Wax</span>
+                        <span class="cs-price">£20</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute thorough hair removal using gentle hot wax technique, leaving underarms smooth and fresh.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Back Wax (Gents)</span>
+                        <span class="cs-price">£40</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute complete back hair removal service using professional hot wax for a clean, smooth finish.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Chest Wax (Gents)</span>
+                        <span class="cs-price">£40</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        30-minute thorough chest area treatment using premium hot wax for lasting results.
+                    </p>
+                </li>
+                <li class="cs-menu-item">
+                    <h3 class="cs-h3">
+                        <span class="cs-header">Intimate Wax</span>
+                        <span class="cs-price">£80</span>
+                    </h3>
+                    <p class="cs-menu-text">
+                        60-minute complete intimate area treatment including extended zones for thorough results. Available for both men and women.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <picture class="cs-picture">
+            <!--Mobile Image -->
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 576, height: 760}) | avif %}" type="image/avif">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 576, height: 760}) | webp %}" type="image/webp">
+            <source media="(max-width: 600px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 576, height: 760}) | jpeg %}" type="image/jpeg">
+            <!--Tablet Image -->
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 928, height: 1017}) | avif %}" type="image/avif">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 928, height: 1017}) | webp %}" type="image/webp">
+            <source media="(max-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 928, height: 1017}) | jpeg %}" type="image/jpeg">
+            <!--Desktop Image -->
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 1042, height: 1168}) | avif %}" type="image/avif">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 1042, height: 1168}) | webp %}" type="image/webp">
+            <source media="(min-width: 1024px)" srcset="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 1042, height: 1168}) | jpeg %}" type="image/jpeg">
+            <img src="{% getUrl "/assets/images/treatment-2.jpg" | resize({width: 1042, height: 1017}) | jpeg %}" alt="massage" width="521" height="640" loading="lazy" decoding="async" aria-hidden="true">
+        </picture>
+    </div>
+</section>
+            
+
+{% endblock %}

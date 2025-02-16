@@ -1,26 +1,26 @@
 module.exports = {
-    "name": "Patthira Thai Spa",
-    "email": "patthirathaispa@gmail.com",
-    "phoneForTel": "+441604946448",
-    "phoneFormatted": "01604 946448",
-    "openingHours": "Mon-Sat: 10am-8pm",
-    "onlineBooking": "https://patthirathaispa.setmore.com/",
+    "name": "Diva Thai Massage & Beauty",
+    "email": "divathaimassageandbeauty@gmail.com",
+    "phoneForTel": "+447984601122",
+    "phoneFormatted": "079846 01122",
+    "openingHours": "Mon-Sun: 9am-4pm",
+    "onlineBooking": "https://divathaimassagebeauty.setmore.com/",
     "address": {
-        "lineOne": "34 York Rd",
-        "lineTwo": "",
-        "city": "Northampton",
+        "lineOne": "The Body-Mind Clinic",
+        "lineTwo": "128 Newport Road",
+        "city": "Cardiff",
         "state": "",
-        "zip": "NN1 5QH",
+        "zip": "CF24 1DH",
         "country": "UK",
-        "mapLink": "https://maps.app.goo.gl/oNukY9Las2WTSCdT8"
+        "mapLink": "https://maps.app.goo.gl/xipRfE7JAAxuYr9n7"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/profile.php?id=61572085995736",
-        "whatsapp": "https://wa.me/+447947424114",
-        "googleReview": "",
+        "facebook": "https://www.facebook.com/profile.php?id=61572882921474",
+        "whatsapp": "",
+        "googleReview": "https://g.page/r/CWMdot-UpYlzEBM/review",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://patthirathaispa.co.uk"
+    "domain": "https://divathaimassage.co.uk"
 };
 
 
