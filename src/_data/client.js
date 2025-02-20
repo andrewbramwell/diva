@@ -3,7 +3,7 @@ module.exports = {
     "email": "divathaimassageandbeauty@gmail.com",
     "phoneForTel": "+447984601122",
     "phoneFormatted": "079846 01122",
-    "openingHours": "Mon-Sun: 9am-4pm",
+    "openingHours": "Mon-Sun: 9am-4pm | Sat-Sun: 9am-4pm",
     "onlineBooking": "https://divathaimassagebeauty.setmore.com/",
     "address": {
         "lineOne": "The Body-Mind Clinic",
@@ -16,7 +16,7 @@ module.exports = {
     },
     "socials": {
         "facebook": "https://www.facebook.com/profile.php?id=61572882921474",
-        "whatsapp": "",
+        "whatsapp": "https://wa.me/+447984601122",
         "googleReview": "https://g.page/r/CWMdot-UpYlzEBM/review",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
